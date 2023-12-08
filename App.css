@@ -1,0 +1,141 @@
+/* GamesCss */
+
+
+/* App.css atau file CSS terpisah */
+footer {
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  background-color: #161A30;
+  color: #fff;
+}
+
+body {
+  background-color: #31304D; /* Ganti dengan warna atau gambar latar belakang yang diinginkan */
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, p, a {
+  /* Gaya untuk elemen teks lainnya */
+  color: #fff; /* Warna teks untuk elemen-elemen ini */
+}
+
+.carousel .carousel-status {
+  display: none;
+}
+
+.register-button {
+  margin-left: auto;
+  margin-right: 0px;
+  background-color: transparent;
+  width: 85px;
+  height: 40px;
+  border: 2px solid #B6BBC4;
+  border-radius: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+
+
+.menu-icon {
+  cursor: pointer;
+}
+
+.bar {
+  width: 30px;
+  height: 3px;
+  background-color: #fff;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.open.bar:nth-child(1) {
+  transform: rotate(-45deg) translate(-7px, 6px);
+}
+
+.open.bar:nth-child(2) {
+  opacity: 0;
+}
+
+.open.bar:nth-child(3) {
+  transform: rotate(45deg) translate(-7px, -6px);
+}
+
+.nav-links {
+  display: none;
+}
+
+.nav-links.open {
+  display: block;
+}
+
+.nav-links ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links ul li {
+  margin-bottom: 10px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+}
+
+/* asu */
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
